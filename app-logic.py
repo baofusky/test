@@ -87,7 +87,7 @@ def send_to_ucwi(file_content, filename):
     #print(url)
     headers = get_headers()
     metadata = {
-        "user": "cnsec_jizhiming",
+        "user": "Skygurad_testuser",
         # "filename": "mimi.txt",
         "queryID": str(uuid.uuid4()),
         # "md5": "e569660a0bc41a34d7d7aa12cb29feac",
