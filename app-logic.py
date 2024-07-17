@@ -77,7 +77,7 @@ def get_headers():
     headers = {
         "X-Skg-Timestamp": timestamp,
         "authorization": auth,
-        "tenant_id": zuhuid
+        "x-tenant-id": zuhuid
     }
     return headers
 
